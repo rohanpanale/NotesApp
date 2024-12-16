@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Note Title -->
+    <TextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Note Description -->
+    <TextView
+        android:id="@+id/tv_note_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="14sp" />
+
+    <!-- Edit and Delete Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Edit"
+            android:src="@drawable/ic_edit"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Delete"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

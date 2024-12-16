@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <!-- Other string resources -->
+
+    <!-- Add the missing string for notes -->
+    <string name="notes">Notes</string>
+
+    <!-- You can also add any other strings you need -->
+    <string name="add_note">Add Note</string>
+</resources>
